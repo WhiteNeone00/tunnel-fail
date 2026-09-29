@@ -1,0 +1,8 @@
+name = "openworld-tunnel-error"
+main = "worker.js"
+compatibility_date = "2026-05-03"
+routes = [{ pattern = "test.whee.lol/*", zone_name = "whee.lol" }]
+
+[assets]
+directory = "."
+binding = "ASSETS"
